@@ -1,0 +1,78 @@
+#unique {
+font-style: oblique;
+  font-weight: 400;
+}
+#nav {
+font-size: 24px;
+  font-family: sans-serif;
+  list-style-type: none;
+
+}
+#nav li {
+  display: inline-block;
+  width: 200px;
+  background-color: blue;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 10px;
+  margin:0 auto;
+  color: white;
+}
+
+#practice-links a:link {
+color: green;
+font-size: 24px;
+border: 1px solid green;
+
+}
+#practice-links a:visited {
+color: darkblue;
+font-size: 24px;
+border: 1px dashed darkblue;
+
+}
+
+#practice-links a:hover {
+color: red;
+font-size: 24px;
+border: 2px dotted red;
+}
+
+#practice-links a:active {
+text-shadow: 5px 5px 5px gray;
+}
+#unique {
+
+}
+
+#nav a {
+text-decoration: none;
+
+}
+p {
+background-color: gold;
+}
+div :nth-child(3) {
+text-decoration: underline;
+}
+
+.special {
+font-family: monospace;
+font-size: 72px;
+font-style: italic;
+padding: 20px;
+margin: 10px auto;
+text-align: center;
+height: 200px;
+width: 400px;
+background-color: blue;
+color: red;
+border: 1px dashed yellow;
+border-radius: 20px;
+}
+
+div{
+  border: 2px solid red;
+  margin: 10px;
+}

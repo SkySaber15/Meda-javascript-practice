@@ -1,0 +1,35 @@
+button {
+  color: turquoise;
+  font-size: 16px;
+  line-height: 16px;
+  padding: 8px;
+  box-shadow: rgb(0, 0, 0) 5px 5px 15px 5px;
+  border: 2px solid rgb(28, 110, 164);
+  width: 100px;
+  background-color: white;
+  margin-left: 50px;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: turquoise;
+  color: blue;
+}
+
+input {
+  width: 200px;
+  padding: 6px;
+  font-size: 18px;
+  line-height: 10px;
+  border: 4px solid rgb(200, 150, 140);
+  box-shadow: 5px 5px 15px 5px #000000;
+}
+
+#results {
+  color: #FFF;
+  background-color: #232323;
+  text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #49ff18, 0 0 30px #49FF18, 0 0 40px #49FF18, 0 0 55px #49FF18, 0 0 75px #49ff18;
+  width: 250px;
+  font-size: 18px;
+  line-height: 20px;
+}
